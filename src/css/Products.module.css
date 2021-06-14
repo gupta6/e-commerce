@@ -1,0 +1,32 @@
+.productsList{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 0;
+    margin-left: -1.3%;
+}
+
+@media(max-width: 600px) {
+    .productsList{
+        flex-flow: row nowrap;
+        overflow: auto;
+    }      
+}
+
+.product{
+    width: 23.5%;
+    box-sizing: border-box;
+    margin: 1% 0%;
+    margin-left: 1.5%;
+    background-color: white;
+    padding: 1em;
+    height: 295px;
+    min-width: 250px;
+    position: relative;
+}
+
+.category{
+    margin-bottom: -10px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    text-align: left;
+}

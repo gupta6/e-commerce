@@ -1,0 +1,82 @@
+.header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 36%);
+    background-color: white;
+}
+
+.home_btn{
+    border:1px solid #BCBCBC;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.home_btn:hover{
+    background-color: #F5F5F5;
+}
+
+.rightSide{
+    display: flex;
+    flex: 0.3 50 auto;
+    justify-content: space-between;
+}
+
+.searchBar{
+    width: 74%;
+    height: 35px;
+    display: flex;
+}
+
+.searchBar input{
+    width: 96%;
+    height: 100%;
+    border:1px solid #ccc;    
+}
+
+.searchBar button{
+    height: 100%;
+    flex: 4% 1 auto;
+    text-align: center;
+    background-color: white;
+    border:1px solid #BCBCBC;
+}
+
+.cartDiv{
+    display: flex;
+    margin: 0 .75rem;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.count{
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-left: .5rem;
+}
+
+.email{
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+.signout{
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: left;
+}

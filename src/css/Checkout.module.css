@@ -1,0 +1,17 @@
+.checkout{
+    min-height: 100vh;    
+    background-color: #EAEDED;
+}
+
+.checkout main{
+    margin: 0 1.25em;
+    margin-top: 60px;
+    padding: 1.5% 0 0.5%;
+}
+
+.checkout h2{
+    text-align: left;
+    background-color: white;
+    padding: 1%;
+    margin: 0;
+}
